@@ -1,0 +1,45 @@
+{
+  "generator-rf": {
+    "appname": "rf",
+    "mkTestDirs": true,
+    "withBootstrap": true,
+    "description": "A React/Flux app generate by RF, powered with Babel",
+    "dialect": "Babel",
+    "scriptSuffix": ".js",
+    "testFileExtensions": [
+      "js"
+    ],
+    "dialectModuleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "stylesheet": "CSS",
+    "stylesheetSuffix": ".css",
+    "bootstrapLoaders": "{\n        test: /bootstrap\\/js\\//,\n        loader: 'imports?jQuery=jquery'\n      },\n\n      {\n        test: /\\.(ttf|eot|svg)$/,\n        loader: 'file-loader'\n      },\n\n      {\n        test: /\\.woff2?$/,\n        loader: 'url-loader?limit=10000&minetype=application/font-woff'\n      },\n",
+    "devDependencies": {
+      "css-loader": "*",
+      "file-loader": "*",
+      "jest-cli": "*",
+      "react-hot-loader": "*",
+      "react-tools": "*",
+      "style-loader": "*",
+      "url-loader": "*",
+      "webpack-dev-server": "*",
+      "webpack": "*",
+      "babel-loader": "*",
+      "babel-jest": "*",
+      "bootstrap": "*",
+      "bootstrap-webpack": "*",
+      "imports-loader": "*",
+      "jquery": "*"
+    },
+    "dialectTest": ".jsx?",
+    "dialectLoader": "react-hot!babel",
+    "stylesheetLoader": "style!css"
+  },
+  "generator-react-webpack": {
+    "app-name": "rf",
+    "flux": true,
+    "styles-language": "less"
+  }
+}
