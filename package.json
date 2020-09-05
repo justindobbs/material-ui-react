@@ -34,7 +34,7 @@
     "karma": "~0.12.21",
     "grunt-karma": "~0.8.3",
     "karma-webpack": "~1.2.2",
-    "webpack-dev-server": "~1.6.5",
+    "webpack-dev-server": "~3.1.11",
     "grunt-open": "~0.2.3",
     "jshint-loader": "~0.8.0",
     "jsxhint-loader": "~0.2.0",
