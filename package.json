@@ -14,7 +14,7 @@
     "flux": "^2.0.1",
     "events": "^1.0.2",
     "object-assign": "^2.0.0", 
-    "react": "~0.13",
+    "react": "~0.14",
     "normalize.css": "~3.0.3"
   },
   "devDependencies": {
